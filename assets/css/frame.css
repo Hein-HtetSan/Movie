@@ -328,6 +328,7 @@ form .fa-magnifying-glass{
 	padding: 1rem;
 	border-right: 1px solid var(--wolf);
 	/* border-right: 1px solid var(--wolf); */
+	transition: all .5s ease-in-out;
 }
 
 .new-feed-wrapper{
@@ -345,9 +346,12 @@ form .fa-magnifying-glass{
 	background-color: violet;
 } */
 
-/* .logout-button-wrapper{
-	background-color: black;
-} */
+.logout-button-wrapper{
+	/* background-color: black; */
+	border-top: 1px solid var(--wolf);
+	padding-top: 10px;
+	padding-left: 10px;
+}
 
 
 

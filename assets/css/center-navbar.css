@@ -52,6 +52,22 @@
     padding: 0 1rem;
 }
 
+.search-bar-wrapper .fa-chevron-left, .search-bar-wrapper .fa-chevron-right{
+    color: var(--wolf);
+    cursor: pointer;
+}
+
+.fa-chevron-left:hover, .fa-chevron-right:hover{
+    color: var(--swan);
+}
+
+.fa-chevron-left.active{
+    color: var(--swan);
+}
+
+.fa-chevron-right.active{
+    color: var(--swan);
+}
 
 /* for tablet  */
 @media all and (max-width: 768px){

@@ -27,8 +27,9 @@
 		<div class="col-3 col-md-12 h-100 h-md-10 aside-bar d-md-flex align-items-center justify-content-between">
 
 			<!-- logo here  -->
-			<div class="col-12 col-md-4 h-10 logo-wrapper d-flex align-items-center pe-md-1">
-				<h3>Go.<span>Play</span></h3>
+			<div class="col-12 col-md-4 h-10 h-md-10 logo-wrapper d-flex align-items-center justify-content-center pe-md-1 mb-1">
+				<h3 class="d-none d-md-inline">Go.<span>Play</span></h3>
+				<div class="logo d-inline d-md-none" style="background: #fff; width: 80px; height: 80px; border-radius: 50%;"></div>
 			</div>
 
 			<!-- new feed  -->
@@ -39,15 +40,15 @@
 				<!-- nav link  -->
 				<div class="col-12 new-feed-link d-flex align-items-center justify-content-md-center">
 					<i class="fa-solid fa-compass me-1"></i>
-					<span class="me-1 d-inline d-md-none">Browse</span>
+					<span class="me-1 d-inline d-md-none new-feed-link-text">Browse</span>
 				</div>
 				<div class="col-12 new-feed-link d-flex align-items-center justify-content-md-center">
 					<i class="fa-solid fa-heart me-1"></i>
-					<span class="me-1 d-inline d-md-none">Watchlist</span>
+					<span class="me-1 d-inline d-md-none new-feed-link-text">Watchlist</span>
 				</div>
-				<div class="col-12 new-feed-link d-flex align-items-center justify-content-md-center">
+				<div class="col-12 new-feed-link d-flex align-items-center justify-content-md-center mb-2">
 					<i class="fa-solid fa-calendar me-1"></i>
-					<span class="me-1 d-inline d-md-none">Coming Soon</span>
+					<span class="me-1 d-inline d-md-none new-feed-link-text">Coming Soon</span>
 				</div>
 
 			</div>
@@ -87,9 +88,9 @@
 			</div>
 
 			<!-- logout button  -->
-			<div class="col-12 col-md-3 mt-2 cursor-pointer h-auto logout-button-wrapper d-md-none d-flex align-items-center justify-content-center ">
-				<i class="fa-solid fa-arrow-right-from-bracket ms-1"></i>
-				<span>Log out</span>
+			<div class="col-12 col-md-3 mt-1 cursor-pointer h-auto logout-button-wrapper d-md-none d-flex align-items-center justify-content-center ">
+				<i class="fa-solid fa-arrow-right-from-bracket"></i>
+				<span class="logout-text me-1">Log out</span>
 			</div>
 
 		</div>
@@ -101,8 +102,8 @@
 			<div class="col-12 h-auto navbar-wrapper">
 				<!-- search bar wrapper  -->
 				<div class="col-9 col-md-12 h-10 search-bar-wrapper d-flex align-items-center">
-					<i class="fa-solid fa-chevron-left ms-1 d-inline d-md-none"></i>
-					<i class="fa-solid fa-chevron-right ms-3 ms-md-1 d-inline d-md-none"></i>
+					<i class="fa-solid fa-chevron-left chevron active ms-1 d-inline d-md-none"></i>
+					<i class="fa-solid fa-chevron-right chevron ms-3 ms-md-1 d-inline d-md-none"></i>
 					<div class="search-bar d-flex align-items-center justify-content-between">
 						<div class="d-flex align-items-center">
 							<i class="fa-solid fa-magnifying-glass ms-1"></i>
@@ -112,7 +113,7 @@
 					</div>
 				</div>
 				<!-- profile bar wrapper  -->
-				<div class="col-3 col-md-none h-10 noti-bar-wrapper"></div>
+				<div class="col-3 d-md-none h-10 noti-bar-wrapper"></div>
 			</div>
 
 			<!-- image slider goes here  -->
@@ -174,5 +175,6 @@
 	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 	<!-- swiper js link -->
 	<script src="./assets/js/swiper.js"></script>
+	<script src="./assets/js/aside_toggler.js"></script>
 </body>
 </html>
