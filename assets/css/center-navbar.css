@@ -93,9 +93,26 @@
     cursor: pointer;
 }
 
+/* party  */
+
+.party-title{
+    font-size: var(--fs-24);
+    font-weight: var(--fw-regular);
+    color: var(--polar);
+}
+
 .noti-bar-wrapper .fa-regular:hover{
     color: var(--scarlet);
 }
+
+.text-end{
+    font-size: var(--fs-12) !important;
+    font-weight: var(--fw-bold) !important;
+    position: absolute;
+    bottom: 50%;
+    right: 5%;
+}
+
 
 /* for tablet  */
 @media all and (max-width: 768px){
