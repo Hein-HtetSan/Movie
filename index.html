@@ -5,14 +5,17 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Adze.Design</title>
-	<link rel="stylesheet" href="./assets/css/style.css">
+	<title>Go.Play</title>
 
 	<!-- fontawesome cdn link  -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 	<!-- Link Swiper's CSS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
+	<!-- local css file  -->
+	<link rel="stylesheet" href="./assets/css/frame.css">
+	<link rel="stylesheet" href="./assets/css/aside.css">
 
 </head>
 <body>
@@ -23,24 +26,69 @@
 		<div class="col-3 col-md-12 h-100 h-md-10 aside-bar d-md-flex align-items-center justify-content-between">
 
 			<!-- logo here  -->
-			<!-- logout button  -->
-			<div class="col-12 col-md-4 h-10 logo-wrapper">
-
+			<div class="col-12 col-md-4 h-10 logo-wrapper d-flex align-items-center pe-md-1">
+				<h3>Go.<span>Play</span></h3>
 			</div>
 
 			<!-- new feed  -->
-			<div class="col-12 col-md-6 h-30 h-md-10 new-feed-wrapper">
+			<div class="col-12 col-md-5 h-30 h-md-10 new-feed-wrapper d-md-flex">
+
+				<span class="title d-inline d-md-none">News Feed</span>
+				<!-- <div class="col-12"></div> -->
+				<!-- nav link  -->
+				<div class="col-12 new-feed-link d-flex align-items-center justify-content-md-center">
+					<i class="fa-solid fa-compass me-1"></i>
+					<span class="me-1 d-inline d-md-none">Browse</span>
+				</div>
+				<div class="col-12 new-feed-link d-flex align-items-center justify-content-md-center">
+					<i class="fa-solid fa-heart me-1"></i>
+					<span class="me-1 d-inline d-md-none">Watchlist</span>
+				</div>
+				<div class="col-12 new-feed-link d-flex align-items-center justify-content-md-center">
+					<i class="fa-solid fa-calendar me-1"></i>
+					<span class="me-1 d-inline d-md-none">Coming Soon</span>
+				</div>
 
 			</div>
 
 			<!-- following wrapper  -->
-			<div class="col-12 h-40 h-md-10 following-wrapper d-md-none">
+			<div class="col-12 h-auto following-wrapper d-md-none">
+
+				<span class="title d-inline d-md-none">Following</span>
+				<!-- <div class="col-12"></div> -->
+				<!-- follower  -->
+				<div class="col-12 followers d-flex align-items-center justify-content-md-center mt-1 mb-1">
+					<div class="image me-1" style="background: #fff; width: 35px; height: 35px; border-radius: 50%;"></div>
+					<span class="me-1 d-inline d-md-none ms-3 follower-name">Ikako.t</span>
+					<div class="dot" style="background: greenyellow; width: 8px; height: 8px; border-radius: 50%;"></div>
+				</div>
+				<div class="col-12 followers d-flex align-items-center justify-content-md-center mb-1">
+					<div class="image me-1" style="background: #fff; width: 35px; height: 35px; border-radius: 50%;"></div>
+					<span class="me-1 d-inline d-md-none ms-3 follower-name">Nick.S</span>
+					<div class="dot" style="background: greenyellow; width: 8px; height: 8px; border-radius: 50%;"></div>
+				</div>
+				<div class="col-12 followers d-flex align-items-center justify-content-md-center mb-1">
+					<div class="image me-1" style="background: #fff; width: 35px; height: 35px; border-radius: 50%;"></div>
+					<span class="me-1 d-inline d-md-none ms-3 follower-name">Vika.J</span>
+					<div class="dot" style="background: greenyellow; width: 8px; height: 8px; border-radius: 50%;"></div>
+				</div>
+				<div class="col-12 followers d-flex align-items-center justify-content-md-center mb-1">
+					<div class="image me-1" style="background: #fff; width: 35px; height: 35px; border-radius: 50%;"></div>
+					<span class="me-1 d-inline d-md-none ms-3 follower-name">Anna.S</span>
+					<div class="dot" style="background: greenyellow; width: 8px; height: 8px; border-radius: 50%;"></div>
+				</div>
+
+				<div class="col-12 followers cursor-pointer d-flex align-items-center justify-content-center">
+					<i class="fa-solid fa-circle-chevron-down ms-1"></i>
+					<span class="load-more">Load more</span>
+				</div>
 
 			</div>
 
 			<!-- logout button  -->
-			<div class="col-12 col-md-3 h-10 logout-button-wrapper d-md-none">
-
+			<div class="col-12 col-md-3 mt-2 cursor-pointer h-auto logout-button-wrapper d-md-none d-flex align-items-center justify-content-center ">
+				<i class="fa-solid fa-arrow-right-from-bracket ms-1"></i>
+				<span>Log out</span>
 			</div>
 
 		</div>
@@ -58,7 +106,7 @@
 
 			<!-- image slider goes here  -->
 			<div class="col-12 h-auto image-slider-wrapper">
-				<div class="col-12 h-50 h-md-30 image-slider"></div>
+				<div class="col-12 h-50 h-sm-30 image-slider"></div>
 			</div>
 
 			<!-- parties goes here  -->
@@ -68,15 +116,15 @@
 				</div>
 				<div class="swiper mySwiper">
 					<div class="swiper-wrapper">
-					  <div class="swiper-slide col-4 col-md-8 h-20 ">Slide 1</div>
-					  <div class="swiper-slide col-4 col-md-8 h-20">Slide 2</div>
-					  <div class="swiper-slide col-4 col-md-8 h-20">Slide 3</div>
-					  <div class="swiper-slide col-4 col-md-8 h-20">Slide 4</div>
-					  <div class="swiper-slide col-4 col-md-8 h-20">Slide 5</div>
-					  <div class="swiper-slide col-4 col-md-8 h-20">Slide 6</div>
-					  <div class="swiper-slide col-4 col-md-8 h-20">Slide 7</div>
-					  <div class="swiper-slide col-4 col-md-8 h-20">Slide 8</div>
-					  <div class="swiper-slide col-4 col-md-8 h-20">Slide 9</div>
+					  <div class="swiper-slide col-4 col-md-6 col-sm-10 h-20 ">Slide 1</div>
+					  <div class="swiper-slide col-4 col-md-6 col-sm-10 h-20">Slide 2</div>
+					  <div class="swiper-slide col-4 col-md-6 col-sm-10 h-20">Slide 3</div>
+					  <div class="swiper-slide col-4 col-md-6 col-sm-10 h-20">Slide 4</div>
+					  <div class="swiper-slide col-4 col-md-6 col-sm-10 h-20">Slide 5</div>
+					  <div class="swiper-slide col-4 col-md-6 col-sm-10 h-20">Slide 6</div>
+					  <div class="swiper-slide col-4 col-md-6 col-sm-10 h-20">Slide 7</div>
+					  <div class="swiper-slide col-4 col-md-6 col-sm-10 h-20">Slide 6</div>
+					  <div class="swiper-slide col-4 col-md-6 col-sm-10 h-20">Slide 9</div>
 					</div>
 					<div class="swiper-pagination"></div>
 				  </div>
