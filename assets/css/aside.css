@@ -130,7 +130,7 @@
 }
 
 .fa-circle-chevron-down{
-    font-size: var(--fs-28);
+    font-size: var(--fs-20);
     color: var(--scarlet);
 }
 
@@ -151,7 +151,7 @@
 
 /* for tablet  */
 @media all and (max-width: 768px){
-    
+
     .new-feed-link{
         height: 100%;
         font-size: var(--fs-18);
