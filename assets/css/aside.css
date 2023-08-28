@@ -151,23 +151,7 @@
 
 /* for tablet  */
 @media all and (max-width: 768px){
-
-    /* .new-feed-link::before{
-        width: 0;
-        height: 3px;
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 10%;
-        background: var(--scarlet);
-        border-radius: 5px;
-        transition: all .5s ease;
-    }
-
-    .new-feed-link:hover::before{
-        width: 70%;
-    } */
-
+    
     .new-feed-link{
         height: 100%;
         font-size: var(--fs-18);
@@ -178,10 +162,7 @@
         top: 0 ;
         right: 0 !important;
     }
-    /* .new-feed-link:hover::before{
-        height: 5px;
-        width: 70%;
-    } */
+
 }
 
 /* for mobile  */

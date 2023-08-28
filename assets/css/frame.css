@@ -327,6 +327,7 @@ form .fa-magnifying-glass{
 	/* background-color: blue; */
 	padding: 1rem;
 	border-right: 1px solid var(--wolf);
+	/* border-right: 1px solid var(--wolf); */
 }
 
 .new-feed-wrapper{
@@ -354,16 +355,16 @@ form .fa-magnifying-glass{
 /* main panel  */
 .main-panel{
 	overflow-y: scroll;
-	background-color: burlywood;
+	/* background-color: burlywood; */
 }
 
 .main-panel::-webkit-scrollbar{
 	display: none;
 }
 
-.search-bar-wrapper{
+/* .search-bar-wrapper{
 	background-color: aqua;
-}
+} */
 
 .noti-bar-wrapper{
 	background-color: #788BFF;
@@ -478,6 +479,13 @@ form .fa-magnifying-glass{
 	.image-slider-wrapper{
 		padding: .5rem;
 	}
+	.aside-bar{
+		/* background-color: blue; */
+		/* padding: 1rem; */
+		border-right: none;
+		border-bottom: 1px solid var(--wolf);
+	}
+	
 }
 
 
@@ -567,7 +575,7 @@ form .fa-magnifying-glass{
   .swiper-slide {
 	text-align: center;
 	font-size: 18px;
-	background: #19323C;
+	background: #1cb0f6;
 	display: flex;
 	justify-content: center;
 	align-items: center;

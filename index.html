@@ -16,6 +16,7 @@
 	<!-- local css file  -->
 	<link rel="stylesheet" href="./assets/css/frame.css">
 	<link rel="stylesheet" href="./assets/css/aside.css">
+	<link rel="stylesheet" href="./assets/css/center-navbar.css">
 
 </head>
 <body>
@@ -99,9 +100,19 @@
 			<!-- main navigation bar  -->
 			<div class="col-12 h-auto navbar-wrapper">
 				<!-- search bar wrapper  -->
-				<div class="col-6 col-md-12 h-10 search-bar-wrapper"></div>
+				<div class="col-9 col-md-12 h-10 search-bar-wrapper d-flex align-items-center">
+					<i class="fa-solid fa-chevron-left ms-1 d-inline d-md-none"></i>
+					<i class="fa-solid fa-chevron-right ms-3 ms-md-1 d-inline d-md-none"></i>
+					<div class="search-bar d-flex align-items-center justify-content-between">
+						<div class="d-flex align-items-center">
+							<i class="fa-solid fa-magnifying-glass ms-1"></i>
+							<input type="text" placeholder="Search everything" class="ms-1">
+						</div>
+						<i class="fa-solid fa-sliders"></i>
+					</div>
+				</div>
 				<!-- profile bar wrapper  -->
-				<div class="col-6 d-md-none h-10 noti-bar-wrapper"></div>
+				<div class="col-3 col-md-none h-10 noti-bar-wrapper"></div>
 			</div>
 
 			<!-- image slider goes here  -->
