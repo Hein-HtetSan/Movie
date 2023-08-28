@@ -1,0 +1,210 @@
+/* body{
+
+	background-color: #272829;
+}
+h4{
+
+	color: #D71313;
+}
+
+
+p{
+	font-size: 9pt;
+	color: gray;
+	font-family: sans-serif;
+	display: block;
+	
+}
+
+
+.container{
+	display: flex;
+	align-items: flex;
+	justify-content: center;
+}
+form{
+	background: #fff;
+	width: 200px;
+	height: 30px;
+	display: flex;
+	margin-right: 300px;
+
+}
+
+form input{
+	flex: 1;
+	border:none ;
+	outline: none;
+	font-family:sans-serif;
+
+}
+form button{
+	background: #D71313;
+	padding: 10px 50px;
+	border: none;
+	outline: none;
+	color: #fff;
+	letter border-spacing: 1px;
+	cursor: pointer;
+}
+form .fa-magnifying-glass{
+	align-self: center;
+	padding: 10px 10px;
+	color: #777;
+}
+
+
+
+.index ul{
+    margin-top: 10px;
+	list-style: none;
+	
+}
+.index ul li{
+   font-size: 12pt;
+   text-decoration-color:  #EEEEEE;
+   position: relative;
+   display: block;
+   transition: 0.5s;
+   cursor: pointer;
+   margin-top: 30px;
+   margin-left: 0px;
+
+}
+.index ul li::after{
+
+	position: absolute;
+	content: "";
+	width: 5%;
+	height: 2px;
+	top: 100%;
+	left: 0;
+	transition: transform 0.2s;
+	transform: scale(0);
+	transform-origin:center;
+	background-color: #D71313;
+}
+.index ul li:hover{
+	color: #ffffff;
+
+}
+.index ul li:hover::after{
+	transform: scale(1);
+	transform-origin: left;
+}
+.index ul li a{
+	text-decoration: none;
+	font-family: "Segoe UI",sans-serif;
+	color: gray;
+}
+
+.line{
+
+  border-bottom: 2px solid gray;
+  width: 160px;
+  position: absolute;
+  left: 2%;
+  top: 270px;
+  margin-top: 2%;
+
+}
+.line2{
+
+  border-left: 2px solid gray;
+  height: 800px;
+  position: absolute;
+  left: 17%;
+  margin-left: -3px;
+  top: 40px;
+  bottom: 40px;
+
+}
+
+
+.followList ul{
+    margin-top: 10px;
+	list-style: none;
+	
+}
+.followList ul li{
+   font-size: 12pt;
+   text-decoration-color:  #EEEEEE;
+   position: relative;
+   display: block;
+   margin-top: 10px;
+   
+}
+
+
+.followList ul li a{
+	text-decoration: none;
+	font-family: "Segoe UI",sans-serif;
+	color: gray;
+}
+
+.followList ul li a:active{
+	color: #D71313 ;
+}
+
+
+.noti ul{
+	margin-top: 3px;
+	list-style: none;
+	align-items: right;
+	display: flex;
+	gap: 1rem;
+	margin-left: 190px;
+	margin-right: 100px;
+
+}
+.noti ul li{
+   font-size: 20pt;
+   text-decoration-color:  #EEEEEE;
+   position: relative;
+   display: block;
+   margin-top: 5px;
+   margin-left: 0px;
+
+}
+.noti ul li a{
+    text-decoration: none;
+	font-family: "Segoe UI",sans-serif;
+	color: gray;
+	margin-left: 0px;
+} */
+
+
+/* for universal alignment  */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* column break points  */
+.col-1{width: 8.33%; float: left;}
+.col-2{width: calc(8.33% * 2); float: left;}
+.col-3{width: calc(8.33% * 3); float: left;}
+.col-4{width: calc(8.33% * 4); float: left;}
+.col-5{width: calc(8.33% * 5); float: left;}
+.col-6{width: calc(8.33% * 6); float: left;}
+.col-7{width: calc(8.33% * 7); float: left;}
+.col-8{width: calc(8.33% * 8); float: left;}
+.col-9{width: calc(8.33% * 9); float: left;}
+.col-10{width: calc(8.33% * 19); float: left;}
+
+/* for container  */
+.container{
+	width: 100%;
+}
+
+/* for tablet  */
+@media all and (max-width: 768px){
+
+}
+
+
+/* for mobile  */
+@media all and (max-width: 576px){
+	
+}
