@@ -69,6 +69,34 @@
     color: var(--swan);
 }
 
+.search-bar{
+    border: 1px solid var(--wolf);
+    border-radius: 12px;
+    padding: .5rem 1rem;
+    color: var(--polar);
+}
+
+.search-bar input{
+    width: 270px;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: var(--polar);
+}
+
+.noti-bar-wrapper{
+    color: var(--polar);
+    font-size: var(--fs-20);
+}
+
+.noti-bar-wrapper .fa-regular{
+    cursor: pointer;
+}
+
+.noti-bar-wrapper .fa-regular:hover{
+    color: var(--scarlet);
+}
+
 /* for tablet  */
 @media all and (max-width: 768px){
     
@@ -81,6 +109,10 @@
         height: 5px;
         top: 0 ;
         right: 0 !important;
+    }
+
+    .search-bar input{
+        width: 190px;
     }
 
 }

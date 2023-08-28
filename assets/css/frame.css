@@ -318,6 +318,8 @@ form .fa-magnifying-glass{
 .justify-content-center{justify-content: center;}
 .justify-content-between{justify-content: space-between;}
 .justify-content-evenly{justify-content: space-evenly;}
+.justify-content-start{justify-content: start;}
+.justify-content-end{justify-content: end;}
 
 /* for default 
 
@@ -370,9 +372,9 @@ form .fa-magnifying-glass{
 	background-color: aqua;
 } */
 
-.noti-bar-wrapper{
+/* .noti-bar-wrapper{
 	background-color: #788BFF;
-}
+} */
 
 .image-slider-wrapper{
 	background-color: #808080;
@@ -445,6 +447,9 @@ form .fa-magnifying-glass{
 	.justify-content-md-center{justify-content: center !important;}
 	.justify-content-md-between{justify-content: space-between !important;}
 	.justify-content-md-evenly{justify-content: space-evenly !important;}
+	.justify-content-md-start{justify-content: start !important;}
+	.justify-content-md-end{justify-content: end !important;}
+
 
 	/* margin */
 	.me-md-1{margin-left: 1rem !important;}
@@ -537,7 +542,8 @@ form .fa-magnifying-glass{
 	.justify-content-sm-center{justify-content: center !important;}
 	.justify-content-sm-between{justify-content: space-between !important;}
 	.justify-content-sm-evenly{justify-content: space-evenly !important;}
-
+	.justify-content-sm-start{justify-content: start !important;}
+	.justify-content-sm-end{justify-content: end !important;}
 
 	/* margin */
 	.me-sm-1{margin-left: 1rem  !important;}
