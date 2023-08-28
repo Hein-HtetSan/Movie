@@ -97,6 +97,14 @@
 	height: 70%;
 }
 
+.new-feed-link.active{
+    color: var(--scarlet);
+}
+
+.new-feed-link.active::before{
+    height: 70%;
+}
+
 /* following wrapper  */
 .following-wrapper .title{
     color: var(--swan);

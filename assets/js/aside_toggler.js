@@ -8,6 +8,7 @@ const logout_text = document.querySelector(".fa-arrow-right-from-bracket");
 const logout_btn = document.querySelector(".logout-text");
 const logo = document.querySelector(".logo");
 
+// for aside bar toggling
 chevron.forEach(e => {
     e.addEventListener("click", () => {
         chevron.forEach(f => {
@@ -61,4 +62,15 @@ chevron.forEach(e => {
 
     })
     
+})
+
+
+// for new feed navigation links
+new_feed_link.forEach(e => {
+    e.addEventListener("click", () => {
+        new_feed_link.forEach(i => {
+            i.classList.remove("active");
+        })
+        e.classList.add("active");
+    })
 })
