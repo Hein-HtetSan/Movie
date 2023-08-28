@@ -1,68 +1,4 @@
-<!-- <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div>
-     <h4> GoPlay</h4> 	
-     	
-    <div class="container">
-	<form>
-		<link rel="stylesheet" type="text/css" href="fonts-6/css/all.css">
-		<i class="fa-solid fa-magnifying-glass"></i>
-		<input type="text" name="" placeholder="Search anything">
-
-	</form>
-	<div class="noti"> 
-	  <ul>
-		<li><a href=""><i class="fa-solid fa-bell"></i></a></li>
-		<li><a href=""><i class="fa-solid fa-user"></i></a></li>
-	  </ul>
-    </div>	
-  </div>
-
-
-	<p>News feed</p>
-	
-
-
-
-	<div class="index">
-		<link rel="stylesheet" type="text/css" href="fonts-6/css/all.css">
-		<ul>
-		<li><a href=""><i class="fa-brands fa-safari" style="color: #D71313;"></i>  Browse</a></li>
-		<li><a href=""><i class="fa-regular fa-heart" style="color: gray;"></i>  Watchlist</a></li>
-		<li><a href=""><i class="fa-regular fa-calendar-days" style="color: gray;"></i>  Coming Soon</a></li>
-	</ul>
-	</div>
-
-
-	<div class="line">
-	</div>
-
-
-	<br><br><br>
-	<p>Following</p>
-	<div class="followList">
-		<ul>
-			<li><a href="">Show time</a></li>
-			<li><a href="">Show time</a></li>
-			<li><a href="">Show time</a></li>
-			<li><a href="">Show time</a></li>
-			<li><a href="">Show time</a></li>
-			<li><a href="">Show time</a></li>
-			<li><a href="">Show time</a></li>
-		</ul>
-	</div>
-    <div class="line2">
-	</div>
-
-</body>
-</html> -->
+<!-- Hello Hsu San  -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -70,14 +6,114 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Adze.Design</title>
-	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
+
+	<!-- fontawesome cdn link  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+
 </head>
 <body>
 	<!-- this is container  -->
-	<div class="container">
+	<div class="container h-100">
 
-		
+		<!-- for aside panel  -->
+		<div class="col-3 col-md-12 h-100 h-md-10 aside-bar d-md-flex align-items-center justify-content-between">
+
+			<!-- logo here  -->
+			<!-- logout button  -->
+			<div class="col-12 col-md-4 h-10 logo-wrapper">
+
+			</div>
+
+			<!-- new feed  -->
+			<div class="col-12 col-md-6 h-30 h-md-10 new-feed-wrapper">
+
+			</div>
+
+			<!-- following wrapper  -->
+			<div class="col-12 h-40 h-md-10 following-wrapper d-md-none">
+
+			</div>
+
+			<!-- logout button  -->
+			<div class="col-12 col-md-3 h-10 logout-button-wrapper d-md-none">
+
+			</div>
+
+		</div>
+
+		<!-- for center panel  -->
+		<div class="col-9 col-md-12 h-100 h-md-90 main-panel ">
+
+			<!-- main navigation bar  -->
+			<div class="col-12 h-auto navbar-wrapper">
+				<!-- search bar wrapper  -->
+				<div class="col-6 col-md-12 h-10 search-bar-wrapper"></div>
+				<!-- profile bar wrapper  -->
+				<div class="col-6 d-md-none h-10 noti-bar-wrapper"></div>
+			</div>
+
+			<!-- image slider goes here  -->
+			<div class="col-12 h-auto image-slider-wrapper">
+				<div class="col-12 h-50 h-md-30 image-slider"></div>
+			</div>
+
+			<!-- parties goes here  -->
+			<div class="col-12 h-20 parties-wrapper">
+				<div class="party-title">
+					<span>Parties</span>
+				</div>
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+					  <div class="swiper-slide col-4 col-md-8 h-20 ">Slide 1</div>
+					  <div class="swiper-slide col-4 col-md-8 h-20">Slide 2</div>
+					  <div class="swiper-slide col-4 col-md-8 h-20">Slide 3</div>
+					  <div class="swiper-slide col-4 col-md-8 h-20">Slide 4</div>
+					  <div class="swiper-slide col-4 col-md-8 h-20">Slide 5</div>
+					  <div class="swiper-slide col-4 col-md-8 h-20">Slide 6</div>
+					  <div class="swiper-slide col-4 col-md-8 h-20">Slide 7</div>
+					  <div class="swiper-slide col-4 col-md-8 h-20">Slide 8</div>
+					  <div class="swiper-slide col-4 col-md-8 h-20">Slide 9</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				  </div>
+			</div>
+
+			<!-- watching goes here  -->
+			<div class="col-12 h-auto watching-wrapper">
+				<div class="party-title">
+					<span>Continue Watching</span>
+				</div>
+				<!-- movies go here  -->
+				<div class="movie-wrapper col-3 col-md-6 col-sm-12">
+					<div class="col-100 h-30  movie"></div>
+				</div>
+				<div class="movie-wrapper col-3 col-md-6 col-sm-12 ">
+					<div class="col-100 h-30  movie"></div>
+				</div>
+				<div class="movie-wrapper col-3 col-md-6 col-sm-12 ">
+					<div class="col-100 h-30  movie"></div>
+				</div>
+				<div class="movie-wrapper col-3 col-md-6 col-sm-12 ">
+					<div class="col-100 h-30  movie"></div>
+				</div>
+				<div class="movie-wrapper col-3 col-md-6 col-sm-12 ">
+					<div class="col-100 h-30  movie"></div>
+				</div>
+			</div>
+
+			<div class="mb-5 col-12 h-10"></div>
+
+		</div>
 
 	</div>
+
+	<!-- Swiper JS -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+	<!-- swiper js link -->
+	<script src="./assets/js/swiper.js"></script>
 </body>
 </html>
