@@ -430,7 +430,7 @@ form .fa-magnifying-glass{
 	bottom: 11px;
 	left: 11px;
 	transform: translateY(110%);
-	background-color: rgba(50, 51, 52, 0.226);
+	background-color: rgba(125, 127, 128, 0.253);
 	transition: all .5s ease;
 	border-radius: 10px;
 	padding: 1rem;
@@ -444,6 +444,50 @@ form .fa-magnifying-glass{
 .fa-bookmark{
 	color: var(--polar);
 	font-size: var(--fs-24);
+}
+
+.movie-title{
+	font-size: var(--fs-22);
+	font-weight: var(--fw-semibold);
+	color: var(--polar);
+	/* margin-bottom: 4px; */
+}
+
+.watch-btn{
+	margin-top: 10px;
+	color: var(--eel);
+	font-size: var(--fs-14) !important;
+	font-weight: var(--fw-semibold);
+	width: 50%;
+	padding: 5px 10px;
+	height: auto;
+	text-align: center;
+	border-radius: 15px;
+	background: var(--swan);
+}
+
+.watch-btn:hover{
+	background: var(--eel);
+	color: var(--swan);
+}
+
+.rating{
+	text-align: center;
+	width: auto;
+	height: auto;
+	border: 1.5px solid var(--polar);
+	border-radius: 5px;
+	color: var(--polar);
+	font-size: var(--fs-16);
+	font-weight: var(--fw-regular);
+	margin-top: 10px;
+}
+
+.dur{
+	color: var(--polar);
+	font-size: var(--fs-14);
+	font-weight: var(--fw-regular);
+	margin-top: 10px;
 }
 
 /* for tablet  */
@@ -543,6 +587,10 @@ form .fa-magnifying-glass{
 		height: auto !important;
 		/* padding: 1rem !important; */
 	  }
+
+	  .movie-details{
+		width: 94%;
+	  }
 }
 
 
@@ -621,7 +669,9 @@ form .fa-magnifying-glass{
 	.ps-sm-3{padding-right: 3rem !important;}
 	.ps-sm-0{padding-right: 0rem !important;}
 
-	
+	.movie-details{
+		width: 96%;
+	  }
 
 }
 
