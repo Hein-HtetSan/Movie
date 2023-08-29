@@ -400,15 +400,50 @@ form .fa-magnifying-glass{
 /* watching panel  */
 .watching-wrapper{
 	padding: .5rem;
+
 }
 
 .movie-wrapper{
 	padding: .7rem;
+	transition: all .2s ease-in;
+	overflow: hidden;
+	position: relative;
+	border-radius: 10px !important;
 }
 
 .movie{
 	/* background-color: #fff; */
 	border-radius: 10px;
+	transition: all .2s ease-in-out;
+}
+
+.movie:hover ~ .movie-details{
+	transform: translateY(0%);
+	z-index: 9;
+	bottom: 11px;
+}
+
+.movie-details{
+	width: 92%;
+	height: 90%;
+	position: absolute;
+	bottom: 11px;
+	left: 11px;
+	transform: translateY(110%);
+	background-color: rgba(50, 51, 52, 0.226);
+	transition: all .5s ease;
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+.movie-details:hover{
+	transform: translateY(0%);
+	z-index: 9;
+}
+
+.fa-bookmark{
+	color: var(--polar);
+	font-size: var(--fs-24);
 }
 
 /* for tablet  */
@@ -606,7 +641,7 @@ form .fa-magnifying-glass{
 	height: auto;
   }
 
-  .swiper-slide {
+  .party-card {
 	text-align: start;
 	font-size: 18px;
 	background: rgba(92, 92, 92, 0.25);
@@ -618,9 +653,10 @@ form .fa-magnifying-glass{
 	padding: 1rem;
 	box-shadow: var(--shadow);
 	position: relative;
+	transition: all .3s ease;
   }
 
-  .swiper-slide::before{
+  .party-card::before{
 	content: "";
 	position: absolute;
 	left: 0;
@@ -632,27 +668,27 @@ form .fa-magnifying-glass{
 	transition: all .3s ease-in;
   }
 
-  .swiper-slide:hover::before{
+  .party-card:hover::before{
 	height: 40%;
   }
 
-  .swiper-slide h4{
+  .party-card h4{
 	font-size: var(--fs-22);
 	font-weight: var(--fw-semibold);
 	color: var(--swan);
   }
 
-  .swiper-slide span{
+  .party-card span{
 	color: var(--wolf);
 	font-size: var(--fs-16);
 	font-weight: var(--fw-regular);
   }
 
-  .swiper-slide:hover{
+  .party-card:hover{
 	transform: scale(1.03);
   }
 
-  .swiper-slide img {
+  .party-card img {
 	display: block;
 	width: 100%;
 	height: 100%;
