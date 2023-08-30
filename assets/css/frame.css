@@ -237,6 +237,7 @@ form .fa-magnifying-glass{
 .cursor-pointer{cursor: pointer;}
 .flex-row{flex-direction: row;}
 .flex-column{flex-direction: column;}
+.text-decoration-none{text-decoration: none !important;}
 
 
 /* .cursor-pointer:hover{color: var(--macaw);} */
@@ -387,8 +388,10 @@ form .fa-magnifying-glass{
 
 .image-slider{
 	border-radius: 10px;
-	background-color: #FF220C;
+	/* background-color: #FF220C; */
 	box-shadow: var(--shadow);
+	box-shadow: 2px 4px 15px rgba(110, 110, 110, 0.409);
+	overflow: hidden;
 }
 
 /* party style goes here  */
@@ -456,7 +459,7 @@ form .fa-magnifying-glass{
 .watch-btn{
 	margin-top: 10px;
 	color: var(--eel);
-	font-size: var(--fs-14) !important;
+	font-size: var(--fs-12) !important;
 	font-weight: var(--fw-semibold);
 	width: 50%;
 	padding: 5px 10px;
@@ -464,6 +467,25 @@ form .fa-magnifying-glass{
 	text-align: center;
 	border-radius: 15px;
 	background: var(--swan);
+}
+
+.watch-btn-secondary{
+	/* margin-top: 10px; */
+	color: var(--eel);
+	font-size: var(--fs-24) !important;
+	width: 50px;
+	/* padding: 5px 10px; */
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background: var(--swan);
+}
+
+.watch-btn-secondary:hover{
+	background: var(--snow);
+	color: var(--scarlet);
 }
 
 .watch-btn:hover{
@@ -687,7 +709,12 @@ form .fa-magnifying-glass{
 	padding: 1rem !important;
   }
 
-  .mySwiper{
+  .my-swiper-wrapper{
+	height: 70vh !important;
+	padding: 0 !important;
+  }
+
+  .mySwiper , .my-mySwiper{
 	height: auto;
   }
 
@@ -714,7 +741,7 @@ form .fa-magnifying-glass{
 	width: 7px;
 	height: 0%;
 	border-radius: 10px;
-	background: var(--cardinal);
+	background: var(--scarlet);
 	transition: all .3s ease-in;
   }
 
@@ -743,4 +770,81 @@ form .fa-magnifying-glass{
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+  }
+
+  .party-img{
+	box-shadow: var(--shadow);
+  }
+
+  .span2{
+	color: var(--polar) !important;
+  }
+
+  /* english movies  */
+  .eng-65{
+	background-image: url("../images/playlist/eng/65.jpg"), linear-gradient(rgba(43, 41, 41, 0.427), rgba(105, 105, 98, 0.162)) !important;
+  }
+  .eng-snake-eyes{
+	background-image: url("../images/playlist/eng/snake-eyes.jpg"), linear-gradient(rgba(43, 41, 41, 0.427), rgba(105, 105, 98, 0.162)) !important;
+  }
+  .eng-extinction{
+	background-image: url("../images/playlist/eng/Extinction.jpg"), linear-gradient(rgba(43, 41, 41, 0.427), rgba(105, 105, 98, 0.162)) !important;
+  }
+  .eng-next{
+	background-image: url("../images/playlist/eng/next.jpg"), linear-gradient(rgba(43, 41, 41, 0.427), rgba(105, 105, 98, 0.162)) !important;
+  }
+  .eng-spectral{
+	background-image: url("../images/playlist/eng/spectral.jpg"), linear-gradient(rgba(43, 41, 41, 0.427), rgba(105, 105, 98, 0.162)) !important;
+  }
+  .eng-alienoid{
+	background-image: url("../images/playlist/eng/alienoid.jpg"), linear-gradient(rgba(43, 41, 41, 0.427), rgba(105, 105, 98, 0.162)) !important;
+  }
+  .korean-the-wailing{
+	background-image: url("../images/playlist/korea/The-Wailing.jpg"), linear-gradient(rgba(43, 41, 41, 0.427), rgba(105, 105, 98, 0.162)) !important;
+  }
+  .korean-oldboy{
+	background-image: url("../images/playlist/korea/oldboy.jpg"), linear-gradient(rgba(43, 41, 41, 0.427), rgba(105, 105, 98, 0.162)) !important;
+  }
+  .korean-new-world{
+	background-image: url("../images/playlist/korea/new-world.jpg"), linear-gradient(rgba(43, 41, 41, 0.427), rgba(105, 105, 98, 0.162)) !important;
+  }
+  .korean-i-saw-the-devil{
+	background-image: url("../images/playlist/korea/i-saw-the-devil.jpg"), linear-gradient(rgba(43, 41, 41, 0.427), rgba(105, 105, 98, 0.162)) !important;
+  }
+  .korean-tidal-wave{
+	background-image: url("../images/playlist/korea/tidal-wave.jpg"), linear-gradient(rgba(43, 41, 41, 0.427), rgba(105, 105, 98, 0.162)) !important;
+  }
+  .korean-train-to-busan{
+	background-image: url("../images/playlist/korea/train-to-busan.jpg"), linear-gradient(rgba(43, 41, 41, 0.427), rgba(105, 105, 98, 0.162)) !important;
+  }
+  .china-ip-man-3{
+	background-image: url("../images/playlist/china/ip-man-3.jpg"), linear-gradient(rgba(43, 41, 41, 0.427), rgba(105, 105, 98, 0.162)) !important;
+  }
+  .china-fearless{
+	background-image: url("../images/playlist/china/fearless.jpg"), linear-gradient(rgba(43, 41, 41, 0.427), rgba(105, 105, 98, 0.162)) !important;
+  }
+  .china-the-monkey-king{
+	background-image: url("../images/playlist/china/the-monkey-king.png"), linear-gradient(rgba(43, 41, 41, 0.427), rgba(105, 105, 98, 0.162)) !important;
+  }
+  .china-yesterday-once-more{
+	background-image: url("../images/playlist/china/yesterday-once-more.jpg"), linear-gradient(rgba(43, 41, 41, 0.427), rgba(105, 105, 98, 0.162)) !important;
+  }
+  .china-born-to-fly{
+	background-image: url("../images/playlist/china/born-to-fly.jpg"), linear-gradient(rgba(43, 41, 41, 0.427), rgba(105, 105, 98, 0.162)) !important;
+  }
+  .china-green-night{
+	background-image: url("../images/playlist/china/green-night.jpg"), linear-gradient(rgba(43, 41, 41, 0.427), rgba(105, 105, 98, 0.162)) !important;
+  }
+  .eng-65, .eng-snake-eyes, .eng-extinction, .eng-alienoid, .eng-spectral, .eng-next, .korean-the-wailing, .korean-oldboy,
+  .korean-new-world, .korean-i-saw-the-devil, .korean-tidal-wave, .korean-train-to-busan, .china-ip-man-3, .china-fearless,
+  .china-the-monkey-king, .china-yesterday-once-more, .china-born-to-fly, .china-green-night{
+	/* background: none; */
+	/* background-position: center; */
+	/* background-size: cover; */
+	background-blend-mode:hue;
+  }
+
+  /* carousel-img  */
+  .carousel-img{
+	height: 100%;
   }
