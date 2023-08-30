@@ -427,7 +427,7 @@ form .fa-magnifying-glass{
 }
 
 .movie-details{
-	width: 92%;
+	width: 94%;
 	height: 90%;
 	position: absolute;
 	bottom: 11px;
@@ -467,6 +467,7 @@ form .fa-magnifying-glass{
 	text-align: center;
 	border-radius: 15px;
 	background: var(--swan);
+	cursor: pointer;
 }
 
 .watch-btn-secondary{
@@ -611,7 +612,7 @@ form .fa-magnifying-glass{
 	  }
 
 	  .movie-details{
-		width: 94%;
+		width: 96%;
 	  }
 }
 
