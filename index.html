@@ -39,18 +39,18 @@
 				<span class="title d-inline d-md-none">News Feed</span>
 				<!-- <div class="col-12"></div> -->
 				<!-- nav link  -->
-				<div class="col-12 new-feed-link active d-flex align-items-center justify-content-md-center">
+				<a href="./index.html" class="text-decoration-none col-12 new-feed-link active d-flex align-items-center justify-content-md-center">
 					<i class="fa-solid fa-compass me-1"></i>
 					<span class="me-1 d-inline d-md-none new-feed-link-text">Browse</span>
-				</div>
-				<div class="col-12 new-feed-link d-flex align-items-center justify-content-md-center">
+				</a>
+				<a href="./watchlist.html" class="text-decoration-none col-12 new-feed-link d-flex align-items-center justify-content-md-center">
 					<i class="fa-solid fa-heart me-1"></i>
 					<span class="me-1 d-inline d-md-none new-feed-link-text">Watchlist</span>
-				</div>
-				<div class="col-12 new-feed-link d-flex align-items-center justify-content-md-center mb-2">
+				</a>
+				<a href="./template/comingsoon.html" class="text-decoration-none col-12 new-feed-link d-flex align-items-center justify-content-md-center mb-2">
 					<i class="fa-solid fa-calendar me-1"></i>
 					<span class="me-1 d-inline d-md-none new-feed-link-text">Coming Soon</span>
-				</div>
+				</a>
 
 			</div>
 
@@ -132,18 +132,45 @@
 			</div>
 
 			<!-- image slider goes here  -->
-			<div class="col-12 h-auto image-slider-wrapper d-flex align-items-center justify-content-center">
-				<div class="col-12 h-60 h-sm-30 image-slider position-relative">
+			<div class="col-12 d-flex align-items-center justify-content-center h-auto">
+				<div class="col-12 h-auto image-slider-wrapper d-flex align-items-center justify-content-center">
+					<div class="col-100 h-50 h-sm-30 image-slider position-relative">
+	
+						<div class="swiper mySwiper my-mySwiper">
+							<div class="swiper-wrapper my-swiper-wrapper">
+	
+								<!-- slide 1  -->
+								<div class="swiper-slide carousel-img" style="background: url(./assets/images/playlist/eng/65.jpg);
+								  background-position: center; background-repeat: no-repeat; background-size: cover;">
+								</div>
+	
+								<!-- slide 2  -->
+								<div class="swiper-slide carousel-img" style="background: url(./assets/images/playlist/china/ip-man-3.jpg);
+								  background-position: center; background-repeat: no-repeat; background-size: cover;">
+								</div>
+	
+								<!-- slide 3  -->
+								<div class="swiper-slide carousel-img" style="background: url(./assets/images/playlist/eng/alienoid.jpg);
+								  background-position: center; background-repeat: no-repeat; background-size: cover;">
+								</div>
 
-					
-
+								<!-- slide 4  -->
+								<div class="swiper-slide carousel-img" style="background: url(./assets/images/playlist/korea/train-to-busan.jpg);
+								  background-position: center; background-repeat: no-repeat; background-size: cover;">
+								</div>
+								
+								
+							</div>
+						  </div>
+					</div>
 				</div>
 			</div>
+			
 
-			<!-- parties goes here  -->
+			<!-- trending now goes here -->
 			<div class="col-12 h-40 parties-wrapper">
 				<div class="party-title">
-					<span class="me-1">Parties</span>
+					<span class="me-1"><span style="color: var(--scarlet); font-weight: var(--fw-semibold);">Trending</span> Now</span>
 				</div>
 				<div class="swiper mySwiper2">
 					<div class="swiper-wrapper">
@@ -154,9 +181,9 @@
 								<div class="party-img" style="background: url(./assets/images/party/splider-man.jpg); width: 110px; height: 90px; border-radius: 10px; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
 							</div>
 							<div class="col-6 h-auto d-flex align-items-start justify-content-end  mt-2">
-								<div class="party-img" style="background: #fff; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
-								<div class="party-img" style="background: #fff; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
-								<div class="party-img" style="background: #fff; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
+								<div class="party-img" style="background: url(./assets/images/viewers/user1.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
+								<div class="party-img" style="background: url(./assets/images/viewers/user2.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
+								<div class="party-img" style="background: url(./assets/images/viewers/user3.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
 							</div>
 							<span class="text-end">+3 more</span>
 							<div class="col-12 d-flex flex-column align-items-start mt-1">
@@ -170,9 +197,9 @@
 								<div class="party-img" style="background: url(./assets/images/party/wonder-women.webp); width: 110px; height: 90px; border-radius: 10px; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
 							</div>
 							<div class="col-6 h-auto d-flex align-items-start justify-content-end  mt-2">
-								<div class="party-img" style="background: #fff; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
-								<div class="party-img" style="background: #fff; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
-								<div class="party-img" style="background: #fff; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
+								<div class="party-img" style="background: url(./assets/images/viewers/user1.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
+								<div class="party-img" style="background: url(./assets/images/viewers/user2.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
+								<div class="party-img" style="background: url(./assets/images/viewers/user3.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
 							</div>
 							<span class="text-end">+3 more</span>
 							<div class="col-12 d-flex flex-column align-items-start mt-1">
@@ -186,9 +213,9 @@
 								<div class="party-img" style="background: url(./assets/images/party/mortal-engines.jpg); width: 110px; height: 90px; border-radius: 10px; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
 							</div>
 							<div class="col-6 h-auto d-flex align-items-start justify-content-end  mt-2">
-								<div class="party-img" style="background: #fff; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
-								<div class="party-img" style="background: #fff; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
-								<div class="party-img" style="background: #fff; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
+								<div class="party-img" style="background: url(./assets/images/viewers/user1.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
+								<div class="party-img" style="background: url(./assets/images/viewers/user2.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
+								<div class="party-img" style="background: url(./assets/images/viewers/user3.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
 							</div>
 							<span class="text-end">+3 more</span>
 							<div class="col-12 d-flex flex-column align-items-start mt-1">
@@ -202,9 +229,9 @@
 								<div class="party-img" style="background: url(./assets/images/party/Rampage.jpg); width: 110px; height: 90px; border-radius: 10px; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
 							</div>
 							<div class="col-6 h-auto d-flex align-items-start justify-content-end  mt-2">
-								<div class="party-img" style="background: #fff; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
-								<div class="party-img" style="background: #fff; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
-								<div class="party-img" style="background: #fff; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
+								<div class="party-img" style="background: url(./assets/images/viewers/user1.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
+								<div class="party-img" style="background: url(./assets/images/viewers/user2.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
+								<div class="party-img" style="background: url(./assets/images/viewers/user3.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; width: 30px; height: 30px; border-radius: 50%; border: 2px solid #cdcdcd;"></div>
 							</div>
 							<span class="text-end">+3 more</span>
 							<div class="col-12 d-flex flex-column align-items-start mt-1">
@@ -212,12 +239,362 @@
 								<span>Adventure</span>
 							</div>
 					  	</div>
-						
+					</div>
+					<div class="swiper-pagination"></div>
+				  </div>
+			</div>
+
+			<!-- English goes here -->
+			<div class="col-12 h-40 parties-wrapper">
+				<div class="party-title">
+					<span class="me-1"><span style="color: var(--scarlet); font-weight: var(--fw-semibold);">English</span> Movies</span>
+				</div>
+				<div class="swiper mySwiper2">
+					<div class="swiper-wrapper">
+
+						<!-- english items go here  -->
+					  	<div class="swiper-slide eng-65 party-card col-4 col-md-6 col-sm-10 h-20 position-relative">
+							<div class="col-6 h-auto d-flex align-items-start ">
+								<div class="party-img" style="background: url(./assets/images/playlist/eng/65.jpg); width: 110px; height: 90px; border-radius: 10px; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+							</div>
+							<div class="col-6 h-auto d-flex align-items-start justify-content-end mt-1">
+								<!-- watch button goes here  -->
+								<a href="./" class="watch-btn-secondary text-decoration-none">
+									<i class="fa-regular fa-circle-play"></i>
+								</a>
+							</div>
+							<div class="col-12 d-flex flex-column align-items-start mt-1">
+								<h4>65</h4>
+								<span class="span2">Science Fiction, Action</span>
+							</div>
+					  	</div>
+
+						<!-- english items go here  -->
+						<div class="swiper-slide eng-extinction party-card col-4 col-md-6 col-sm-10 h-20 position-relative">
+							<div class="col-6 h-auto d-flex align-items-start ">
+								<div class="party-img" style="background: url(./assets/images/playlist/eng/Extinction.jpg); width: 110px; height: 90px; border-radius: 10px; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+							</div>
+							<div class="col-6 h-auto d-flex align-items-start justify-content-end mt-1">
+								<!-- watch button goes here  -->
+								<a href="./" class="watch-btn-secondary text-decoration-none">
+									<i class="fa-regular fa-circle-play"></i>
+								</a>
+							</div>
+							<div class="col-12 d-flex flex-column align-items-start mt-1">
+								<h4>Extinction</h4>
+								<span class="span2">Science Fiction, Action</span>
+							</div>
+					  	</div>
+
+						<!-- english items go here  -->
+						<div class="swiper-slide eng-snake-eyes party-card col-4 col-md-6 col-sm-10 h-20 position-relative">
+							<div class="col-6 h-auto d-flex align-items-start ">
+								<div class="party-img" style="background: url(./assets/images/playlist/eng/snake-eyes.jpg); width: 110px; height: 90px; border-radius: 10px; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+							</div>
+							<div class="col-6 h-auto d-flex align-items-start justify-content-end mt-1">
+								<!-- watch button goes here  -->
+								<a href="./" class="watch-btn-secondary text-decoration-none">
+									<i class="fa-regular fa-circle-play"></i>
+								</a>
+							</div>
+							<div class="col-12 d-flex flex-column align-items-start mt-1">
+								<h4>Snake Eyes</h4>
+								<span class="span2">Science Fiction, Action</span>
+							</div>
+					  	</div>
+
+						<!-- english items go here  -->
+						<div class="swiper-slide eng-alienoid party-card col-4 col-md-6 col-sm-10 h-20 position-relative">
+							<div class="col-6 h-auto d-flex align-items-start ">
+								<div class="party-img" style="background: url(./assets/images/playlist/eng/alienoid.jpg); width: 110px; height: 90px; border-radius: 10px; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+							</div>
+							<div class="col-6 h-auto d-flex align-items-start justify-content-end mt-1">
+								<!-- watch button goes here  -->
+								<a href="./" class="watch-btn-secondary text-decoration-none">
+									<i class="fa-regular fa-circle-play"></i>
+								</a>
+							</div>
+							<div class="col-12 d-flex flex-column align-items-start mt-1">
+								<h4>Alienoid</h4>
+								<span class="span2">Science Fiction, Action</span>
+							</div>
+					  	</div>
+
+						<!-- english items go here  -->
+						<div class="swiper-slide eng-spectral party-card col-4 col-md-6 col-sm-10 h-20 position-relative">
+							<div class="col-6 h-auto d-flex align-items-start ">
+								<div class="party-img" style="background: url(./assets/images/playlist/eng/spectral.jpg); width: 110px; height: 90px; border-radius: 10px; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+							</div>
+							<div class="col-6 h-auto d-flex align-items-start justify-content-end mt-1">
+								<!-- watch button goes here  -->
+								<a href="./" class="watch-btn-secondary text-decoration-none">
+									<i class="fa-regular fa-circle-play"></i>
+								</a>
+							</div>
+							<div class="col-12 d-flex flex-column align-items-start mt-1">
+								<h4>Spectral</h4>
+								<span class="span2">Science Fiction, Action</span>
+							</div>
+					  	</div>
+
+						<!-- english items go here  -->
+						<div class="swiper-slide eng-next party-card col-4 col-md-6 col-sm-10 h-20 position-relative">
+							<div class="col-6 h-auto d-flex align-items-start ">
+								<div class="party-img" style="background: url(./assets/images/playlist/eng/next.jpg); width: 110px; height: 90px; border-radius: 10px; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+							</div>
+							<div class="col-6 h-auto d-flex align-items-start justify-content-end mt-1">
+								<!-- watch button goes here  -->
+								<a href="./" class="watch-btn-secondary text-decoration-none">
+									<i class="fa-regular fa-circle-play"></i>
+								</a>
+							</div>
+							<div class="col-12 d-flex flex-column align-items-start mt-1">
+								<h4>Next</h4>
+								<span class="span2">Science Fiction, Action</span>
+							</div>
+					  	</div>
+
+
 						
 					</div>
 					<div class="swiper-pagination"></div>
 				  </div>
 			</div>
+
+			<!-- Korean goes here -->
+			<div class="col-12 h-40 parties-wrapper">
+				<div class="party-title">
+					<span class="me-1"><span style="color: var(--scarlet); font-weight: var(--fw-semibold);">Korean</span> Movies</span>
+				</div>
+				<div class="swiper mySwiper2">
+					<div class="swiper-wrapper">
+
+						<!-- english items go here  -->
+					  	<div class="swiper-slide korean-the-wailing party-card col-4 col-md-6 col-sm-10 h-20 position-relative">
+							<div class="col-6 h-auto d-flex align-items-start ">
+								<div class="party-img" style="background: url(./assets/images/playlist/korea/The-Wailing.jpg); width: 110px; height: 90px; border-radius: 10px; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+							</div>
+							<div class="col-6 h-auto d-flex align-items-start justify-content-end mt-1">
+								<!-- watch button goes here  -->
+								<a href="./" class="watch-btn-secondary text-decoration-none">
+									<i class="fa-regular fa-circle-play"></i>
+								</a>
+							</div>
+							<div class="col-12 d-flex flex-column align-items-start mt-1">
+								<h4>The Wailing</h4>
+								<span class="span2">Science Fiction, Action</span>
+							</div>
+					  	</div>
+
+						<!-- koreanlish items go here  -->
+						<div class="swiper-slide korean-oldboy party-card col-4 col-md-6 col-sm-10 h-20 position-relative">
+							<div class="col-6 h-auto d-flex align-items-start ">
+								<div class="party-img" style="background: url(./assets/images/playlist/korea/oldboy.jpg); width: 110px; height: 90px; border-radius: 10px; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+							</div>
+							<div class="col-6 h-auto d-flex align-items-start justify-content-end mt-1">
+								<!-- watch button goes here  -->
+								<a href="./" class="watch-btn-secondary text-decoration-none">
+									<i class="fa-regular fa-circle-play"></i>
+								</a>
+							</div>
+							<div class="col-12 d-flex flex-column align-items-start mt-1">
+								<h4>Oldboy</h4>
+								<span class="span2">Science Fiction, Action</span>
+							</div>
+					  	</div>
+
+						<!-- koreanlish items go here  -->
+						<div class="swiper-slide korean-new-world party-card col-4 col-md-6 col-sm-10 h-20 position-relative">
+							<div class="col-6 h-auto d-flex align-items-start ">
+								<div class="party-img" style="background: url(./assets/images/playlist/korea/new-world.jpg); width: 110px; height: 90px; border-radius: 10px; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+							</div>
+							<div class="col-6 h-auto d-flex align-items-start justify-content-end mt-1">
+								<!-- watch button goes here  -->
+								<a href="./" class="watch-btn-secondary text-decoration-none">
+									<i class="fa-regular fa-circle-play"></i>
+								</a>
+							</div>
+							<div class="col-12 d-flex flex-column align-items-start mt-1">
+								<h4>New World</h4>
+								<span class="span2">Science Fiction, Action</span>
+							</div>
+					  	</div>
+
+						<!-- koreanlish items go here  -->
+						<div class="swiper-slide korean-i-saw-the-devil party-card col-4 col-md-6 col-sm-10 h-20 position-relative">
+							<div class="col-6 h-auto d-flex align-items-start ">
+								<div class="party-img" style="background: url(./assets/images/playlist/korea/i-saw-the-devil.jpg); width: 110px; height: 90px; border-radius: 10px; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+							</div>
+							<div class="col-6 h-auto d-flex align-items-start justify-content-end mt-1">
+								<!-- watch button goes here  -->
+								<a href="./" class="watch-btn-secondary text-decoration-none">
+									<i class="fa-regular fa-circle-play"></i>
+								</a>
+							</div>
+							<div class="col-12 d-flex flex-column align-items-start mt-1">
+								<h4>I Saw the Devil</h4>
+								<span class="span2">Science Fiction, Action</span>
+							</div>
+					  	</div>
+
+						<!-- koreanlish items go here  -->
+						<div class="swiper-slide korean-tidal-wave party-card col-4 col-md-6 col-sm-10 h-20 position-relative">
+							<div class="col-6 h-auto d-flex align-items-start ">
+								<div class="party-img" style="background: url(./assets/images/playlist/korea/tidal-wave.jpg); width: 110px; height: 90px; border-radius: 10px; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+							</div>
+							<div class="col-6 h-auto d-flex align-items-start justify-content-end mt-1">
+								<!-- watch button goes here  -->
+								<a href="./" class="watch-btn-secondary text-decoration-none">
+									<i class="fa-regular fa-circle-play"></i>
+								</a>
+							</div>
+							<div class="col-12 d-flex flex-column align-items-start mt-1">
+								<h4>Tidal Wave</h4>
+								<span class="span2">Science Fiction, Action</span>
+							</div>
+					  	</div>
+
+						<!-- koreanlish items go here  -->
+						<div class="swiper-slide korean-train-to-busan party-card col-4 col-md-6 col-sm-10 h-20 position-relative">
+							<div class="col-6 h-auto d-flex align-items-start ">
+								<div class="party-img" style="background: url(./assets/images/playlist/korea/train-to-busan.jpg); width: 110px; height: 90px; border-radius: 10px; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+							</div>
+							<div class="col-6 h-auto d-flex align-items-start justify-content-end mt-1">
+								<!-- watch button goes here  -->
+								<a href="./" class="watch-btn-secondary text-decoration-none">
+									<i class="fa-regular fa-circle-play"></i>
+								</a>
+							</div>
+							<div class="col-12 d-flex flex-column align-items-start mt-1">
+								<h4>Train to Busan</h4>
+								<span class="span2">Science Fiction, Action</span>
+							</div>
+					  	</div>
+
+
+						
+					</div>
+					<div class="swiper-pagination"></div>
+				  </div>
+			</div>
+
+			<!-- Chinese goes here -->
+			<div class="col-12 h-40 parties-wrapper">
+				<div class="party-title">
+					<span class="me-1"><span style="color: var(--scarlet); font-weight: var(--fw-semibold);">Chinese</span> Movies</span>
+				</div>
+				<div class="swiper mySwiper2">
+					<div class="swiper-wrapper">
+
+						<!-- english items go here  -->
+					  	<div class="swiper-slide china-ip-man-3 party-card col-4 col-md-6 col-sm-10 h-20 position-relative">
+							<div class="col-6 h-auto d-flex align-items-start ">
+								<div class="party-img" style="background: url(./assets/images/playlist/china/ip-man-3.jpg); width: 110px; height: 90px; border-radius: 10px; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+							</div>
+							<div class="col-6 h-auto d-flex align-items-start justify-content-end mt-1">
+								<!-- watch button goes here  -->
+								<a href="./" class="watch-btn-secondary text-decoration-none">
+									<i class="fa-regular fa-circle-play"></i>
+								</a>
+							</div>
+							<div class="col-12 d-flex flex-column align-items-start mt-1">
+								<h4>Ip Man 3</h4>
+								<span class="span2">Science Fiction, Action</span>
+							</div>
+					  	</div>
+
+						<!-- chinalish items go here  -->
+						<div class="swiper-slide china-fearless party-card col-4 col-md-6 col-sm-10 h-20 position-relative">
+							<div class="col-6 h-auto d-flex align-items-start ">
+								<div class="party-img" style="background: url(./assets/images/playlist/china/fearless.jpg); width: 110px; height: 90px; border-radius: 10px; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+							</div>
+							<div class="col-6 h-auto d-flex align-items-start justify-content-end mt-1">
+								<!-- watch button goes here  -->
+								<a href="./" class="watch-btn-secondary text-decoration-none">
+									<i class="fa-regular fa-circle-play"></i>
+								</a>
+							</div>
+							<div class="col-12 d-flex flex-column align-items-start mt-1">
+								<h4>Fearless</h4>
+								<span class="span2">Science Fiction, Action</span>
+							</div>
+					  	</div>
+
+						<!-- chinalish items go here  -->
+						<div class="swiper-slide china-the-monkey-king party-card col-4 col-md-6 col-sm-10 h-20 position-relative">
+							<div class="col-6 h-auto d-flex align-items-start ">
+								<div class="party-img" style="background: url(./assets/images/playlist/china/the-monkey-king.png); width: 110px; height: 90px; border-radius: 10px; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+							</div>
+							<div class="col-6 h-auto d-flex align-items-start justify-content-end mt-1">
+								<!-- watch button goes here  -->
+								<a href="./" class="watch-btn-secondary text-decoration-none">
+									<i class="fa-regular fa-circle-play"></i>
+								</a>
+							</div>
+							<div class="col-12 d-flex flex-column align-items-start mt-1">
+								<h4>The Monkey King</h4>
+								<span class="span2">Science Fiction, Action</span>
+							</div>
+					  	</div>
+
+						<!-- chinalish items go here  -->
+						<div class="swiper-slide china-yesterday-once-more party-card col-4 col-md-6 col-sm-10 h-20 position-relative">
+							<div class="col-6 h-auto d-flex align-items-start ">
+								<div class="party-img" style="background: url(./assets/images/playlist/china/yesterday-once-more.jpg); width: 110px; height: 90px; border-radius: 10px; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+							</div>
+							<div class="col-6 h-auto d-flex align-items-start justify-content-end mt-1">
+								<!-- watch button goes here  -->
+								<a href="./" class="watch-btn-secondary text-decoration-none">
+									<i class="fa-regular fa-circle-play"></i>
+								</a>
+							</div>
+							<div class="col-12 d-flex flex-column align-items-start mt-1">
+								<h4>Yesterday Once More</h4>
+								<span class="span2">Science Fiction, Action</span>
+							</div>
+					  	</div>
+
+						<!-- chinalish items go here  -->
+						<div class="swiper-slide china-green-night party-card col-4 col-md-6 col-sm-10 h-20 position-relative">
+							<div class="col-6 h-auto d-flex align-items-start ">
+								<div class="party-img" style="background: url(./assets/images/playlist/china/green-night.jpg); width: 110px; height: 90px; border-radius: 10px; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+							</div>
+							<div class="col-6 h-auto d-flex align-items-start justify-content-end mt-1">
+								<!-- watch button goes here  -->
+								<a href="./" class="watch-btn-secondary text-decoration-none">
+									<i class="fa-regular fa-circle-play"></i>
+								</a>
+							</div>
+							<div class="col-12 d-flex flex-column align-items-start mt-1">
+								<h4>Green Night</h4>
+								<span class="span2">Science Fiction, Action</span>
+							</div>
+					  	</div>
+
+						<!-- chinalish items go here  -->
+						<div class="swiper-slide china-born-to-fly party-card col-4 col-md-6 col-sm-10 h-20 position-relative">
+							<div class="col-6 h-auto d-flex align-items-start ">
+								<div class="party-img" style="background: url(./assets/images/playlist/china/born-to-fly.jpg); width: 110px; height: 90px; border-radius: 10px; background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+							</div>
+							<div class="col-6 h-auto d-flex align-items-start justify-content-end mt-1">
+								<!-- watch button goes here  -->
+								<a href="./" class="watch-btn-secondary text-decoration-none">
+									<i class="fa-regular fa-circle-play"></i>
+								</a>
+							</div>
+							<div class="col-12 d-flex flex-column align-items-start mt-1">
+								<h4>Born to fly</h4>
+								<span class="span2">Science Fiction, Action</span>
+							</div>
+					  	</div>
+
+
+						
+					</div>
+					<div class="swiper-pagination"></div>
+				  </div>
+			</div>
+
 
 			<!-- watching goes here  -->
 			<div class="col-12 h-auto watching-wrapper">
@@ -227,8 +604,8 @@
 				</div>
 
 				<!-- movies go here  -->
-				<a href="" class="movie-wrapper col-3 col-md-6 col-sm-12">
-					<div class=" h-30 movie cursor-pointer" style="background: url(./assets/images/playlist/65.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+				<a href="https://youtu.be/bHXejJq5vr0?si=bw9J_lsVp5N132hM" class="movie-wrapper col-3 col-md-6 col-sm-12">
+					<div class=" h-30 movie cursor-pointer" style="background: url(./assets/images/playlist/eng/65.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
 					<div class="movie-details">
 						<div class="col-12 h-auto d-flex align-items-center justify-content-end mb-3"><i class="fa-regular fa-bookmark"></i></div>
 						<div class="col-12 h-auto movie-title ">65</div>
@@ -245,77 +622,7 @@
 					</div>
 				</a>
 
-				<a href="" class="movie-wrapper col-3 col-md-6 col-sm-12">
-					<div class=" h-30 movie cursor-pointer" style="background: url(./assets/images/playlist/65.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
-					<div class="movie-details">
-						<div class="col-12 h-auto d-flex align-items-center justify-content-end mb-3"><i class="fa-regular fa-bookmark"></i></div>
-						<div class="col-12 h-auto movie-title ">65</div>
-						<!-- <div class="col-12"></div> -->
-						<div class="d-flex align-items-center justify-content-start col-100">
-							<div class="col-4 rating ms-1">PG-13</div>
-							<div class="col-9 dur">1h 33m - 2023</div>
-						</div>
-						<div class="col-12">
-							<div class="watch-btn">
-								<span class="ms-1">Watch</span><i class="fa-regular fa-circle-play"></i>
-							</div>
-						</div>
-					</div>
-				</a>
-
-				<a href="" class="movie-wrapper col-3 col-md-6 col-sm-12">
-					<div class=" h-30 movie cursor-pointer" style="background: url(./assets/images/playlist/65.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
-					<div class="movie-details">
-						<div class="col-12 h-auto d-flex align-items-center justify-content-end mb-3"><i class="fa-regular fa-bookmark"></i></div>
-						<div class="col-12 h-auto movie-title ">65</div>
-						<!-- <div class="col-12"></div> -->
-						<div class="d-flex align-items-center justify-content-start col-100">
-							<div class="col-4 rating ms-1">PG-13</div>
-							<div class="col-9 dur">1h 33m - 2023</div>
-						</div>
-						<div class="col-12">
-							<div class="watch-btn">
-								<span class="ms-1">Watch</span><i class="fa-regular fa-circle-play"></i>
-							</div>
-						</div>
-					</div>
-				</a>
-
-				<a href="" class="movie-wrapper col-3 col-md-6 col-sm-12">
-					<div class=" h-30 movie cursor-pointer" style="background: url(./assets/images/playlist/65.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
-					<div class="movie-details">
-						<div class="col-12 h-auto d-flex align-items-center justify-content-end mb-3"><i class="fa-regular fa-bookmark"></i></div>
-						<div class="col-12 h-auto movie-title ">65</div>
-						<!-- <div class="col-12"></div> -->
-						<div class="d-flex align-items-center justify-content-start col-100">
-							<div class="col-4 rating ms-1">PG-13</div>
-							<div class="col-9 dur">1h 33m - 2023</div>
-						</div>
-						<div class="col-12">
-							<div class="watch-btn">
-								<span class="ms-1">Watch</span><i class="fa-regular fa-circle-play"></i>
-							</div>
-						</div>
-					</div>
-				</a>
-
-				<a href="" class="movie-wrapper col-3 col-md-6 col-sm-12">
-					<div class=" h-30 movie cursor-pointer" style="background: url(./assets/images/playlist/65.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
-					<div class="movie-details">
-						<div class="col-12 h-auto d-flex align-items-center justify-content-end mb-3"><i class="fa-regular fa-bookmark"></i></div>
-						<div class="col-12 h-auto movie-title ">65</div>
-						<!-- <div class="col-12"></div> -->
-						<div class="d-flex align-items-center justify-content-start col-100">
-							<div class="col-4 rating ms-1">PG-13</div>
-							<div class="col-9 dur">1h 33m - 2023</div>
-						</div>
-						<div class="col-12">
-							<div class="watch-btn">
-								<span class="ms-1">Watch</span><i class="fa-regular fa-circle-play"></i>
-							</div>
-						</div>
-					</div>
-				</a>
+				
 				
 			</div>
 
@@ -331,5 +638,19 @@
 	<script src="./assets/js/party-swiper.js"></script>
 	<script src="./assets/js/aside_toggler.js"></script>
 	<script src="./assets/js/image-slider.js"></script>
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 10,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        // el: ".swiper-pagination",
+        clickable: true,
+      }
+	});
+	</script>
 </body>
 </html>
