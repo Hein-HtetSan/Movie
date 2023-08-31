@@ -27,48 +27,24 @@ let movie = [
 ]
 
 
-
-
-
-// get the idd from url
-const queryString = window.location.search;
-const urlParams = new URLSearchParams(queryString);
-let idd = urlParams.get('id');
-let id = parseInt(idd);
-console.log('Received ID:', id);
-
-
-const wrapper = document.querySelector(".movie-detail-wrapper");
-    
-wrapper.innerHTML = `
-
-        <div class="col-8 col-md-12 movie-detail-card position-relative" 
-        style="background-image: url('${movie[id].image}'),linear-gradient(rgba(43, 41, 41, 0.427), rgba(105, 105, 98, 0.437));
-            background-position: center; background-repeat: no-repeat; background-blend-mode:soft-light;
-            background-size: cover;">
-
-            <!-- Here is the content  -->
-            <div class="col-100 h-60 di-mar-detail-twy flex-column d-flex align-items-start justify-content-end">
-                <span class="dr-ga-title">${movie[id].name}</span>
-                <div class="rating-nae-duration d-flex align-items-center justify-content-start">
-                    <div class="col-auto rating ms-1 p-1">${movie[id].rating}</div>
-                    <span class="dr-ga-dur ms-1 mt-1">${movie[id].duration}</span>
-                    <span class="dr-ga-year mt-1 ms-1">${movie[id].year}</span>
-                    <a href=""><i class="fa-regular fa-bookmark mt-1"></i></a>
-                </div>
-                <span class="dr-ga-summary-title mt-1">Summary</span>
-                <small class="dr-ga-summary-dec col-5 col-md-8 col-sm-11">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nemo quaerat consequatur accusamus rerum quae neque!
-                    Nemo quaerat consequatur accusamus rerum quae neque!
-                </small>
-                <a href="${movie[id].link}" target="_blank" class="watch-btn mt-1 col-2 col-md-4 col-sm-5 text-decoration-none">
-                    <span class="ms-1">Watch</span><i class="fa-regular fa-circle-play"></i>
-                </a>
-            </div>
-
-            <a href="./index.html" class="dr-ga-back-btn"><i class="fa-regular fa-xmark-circle"></i></a>
-
-        </div>
-`;
-
+for(let i=0; i<5; i++){
+    document.querySelector(".dr-ga-movie-conatiner").innerHTML += `
+                    <div class="movie-wrapper col-4 col-md-6 col-sm-12" style=";">
+						<div class=" h-30 movie cursor-pointer" style="box-shadow: var(--shadow); background: url(${movie[i].image}); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+						<div class="movie-details">
+							<div class="col-12 h-auto d-flex align-items-center justify-content-end mb-3"></div>
+							<div class="col-12 h-auto movie-title ">${movie[i].name}</div>
+							<!-- <div class="col-12"></div> -->
+							<div class="d-flex align-items-center justify-content-start col-100">
+								<div class="col-4 rating ms-1">${movie[i].rating}</div>
+								<div class="col-9 dur">${movie[i].duration} - ${movie[i].year}</div>
+							</div>
+							<div class="col-12 mt-little">
+								<a href="./detail.html?id=${i}" class="watch-btn text-decoration-none">
+									<span class="ms-1">Watch</span><i class="fa-regular fa-circle-play"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+    `;
+}
