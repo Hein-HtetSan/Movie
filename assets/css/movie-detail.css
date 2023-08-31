@@ -53,5 +53,63 @@
     box-shadow: var(--shadow);
     backdrop-filter: blur(0.3);
     border-radius: 15px;
+    overflow: hidden;
+    padding: 1.5rem;
 }
 
+.di-mar-detail-twy{
+    color: var(--polar);
+}
+
+.dr-ga-title{
+    font-weight: var(--fw-semibold);
+    font-size: var(--fs-34);
+}
+
+.dr-ga-summary-title{
+    font-size: var(--fs-22);
+    font-weight: var(--fw-semibold);
+}
+
+.dr-ga-summary-dec{
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-16);
+}
+
+.dr-ga-back-btn{
+    font-size: var(--fs-26);
+    color: var(--polar);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition: all .3s ease;
+}
+
+.watch-btn{
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-18) !important;
+}
+
+.dr-ga-back-btn:hover{
+    color: var(--scarlet);
+}
+
+.fa-bookmark:hover{
+    color: var(--scarlet);
+}
+
+
+/* for tablet  */
+@media all and (max-width: 768px){
+    .movie-detail-card{
+        padding: .7rem !important;
+    }
+}
+
+
+/* for mobile  */
+@media all and (max-width: 576px){
+    .movie-detail-card{
+        padding: .6rem !important;
+    }
+}
