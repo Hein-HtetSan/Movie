@@ -795,59 +795,54 @@ form .fa-magnifying-glass{
 
   /* english movies  */
   .eng-65{
-	background-image: url("../img/bigshots/1.png"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
+	background-image: url("../img/Ellenshow/1.png"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
   }
   .eng-snake-eyes{
-	background-image: url("../images/playlist/eng/snake-eyes.jpg"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
+	background-image: url("../img/jimmy/1.png"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
   }
   .eng-extinction{
-	background-image: url("../images/playlist/eng/Extinction.jpg"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
+	background-image: url("../img/steve/1.png"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
   }
   .eng-next{
-	background-image: url("../images/playlist/eng/next.jpg"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
+	background-image: url("../img/carpool.jpg"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
   }
   .eng-spectral{
-	background-image: url("../images/playlist/eng/spectral.jpg"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
+	background-image: url("../img/gottalent.jpg"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
   }
   .eng-alienoid{
-	background-image: url("../images/playlist/eng/alienoid.jpg"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
+	background-image: url("../img/bigshots/1.png"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
   }
   .korean-the-wailing{
-	background-image: url("../images/playlist/korea/The-Wailing.jpg"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
+	background-image: url("../img/k1.png"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
   }
   .korean-oldboy{
-	background-image: url("../images/playlist/korea/oldboy.jpg"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
+	background-image: url("../img/k2.png"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
   }
   .korean-new-world{
-	background-image: url("../images/playlist/korea/new-world.jpg"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
+	background-image: url("../img/k3.png"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
   }
   .korean-i-saw-the-devil{
-	background-image: url("../images/playlist/korea/i-saw-the-devil.jpg"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
+	background-image: url("../img/k4.png"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
   }
   .korean-tidal-wave{
-	background-image: url("../images/playlist/korea/tidal-wave.jpg"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
+	background-image: url("../img/k5.png"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
   }
   .korean-train-to-busan{
-	background-image: url("../images/playlist/korea/train-to-busan.jpg"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
+	background-image: url("../img/k6.png"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
   }
   .china-ip-man-3{
-	background-image: url("../images/playlist/china/ip-man-3.jpg"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
+	background-image: url("../img/c1.png"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
   }
   .china-fearless{
-	background-image: url("../images/playlist/china/fearless.jpg"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
+	background-image: url("../img/c2.png"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
   }
   .china-the-monkey-king{
-	background-image: url("../images/playlist/china/the-monkey-king.png"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
+	background-image: url("../img/c3.png"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
   }
   .china-yesterday-once-more{
-	background-image: url("../images/playlist/china/yesterday-once-more.jpg"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
+	background-image: url("../img/c6.png"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
   }
-  .china-born-to-fly{
-	background-image: url("../images/playlist/china/born-to-fly.jpg"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
-  }
-  .china-green-night{
-	background-image: url("../images/playlist/china/green-night.jpg"), linear-gradient(rgba(187, 187, 187, 0.265), rgba(24, 23, 23, 0.977)) !important;
-  }
+
   .eng-65, .eng-snake-eyes, .eng-extinction, .eng-alienoid, .eng-spectral, .eng-next, .korean-the-wailing, .korean-oldboy,
   .korean-new-world, .korean-i-saw-the-devil, .korean-tidal-wave, .korean-train-to-busan, .china-ip-man-3, .china-fearless,
   .china-the-monkey-king, .china-yesterday-once-more, .china-born-to-fly, .china-green-night{
