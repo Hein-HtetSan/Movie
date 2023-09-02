@@ -43,11 +43,11 @@
 					<i class="fa-solid fa-compass me-1"></i>
 					<span class="me-1 d-inline d-md-none new-feed-link-text">Browse</span>
 				</a>
-				<a href="./watchlist.html" class="text-decoration-none col-12  new-feed-link d-flex align-items-center justify-content-md-center">
+				<a href="./watchlist.html" class="text-decoration-none  col-12 new-feed-link d-flex align-items-center justify-content-md-center">
 					<i class="fa-solid fa-heart me-1"></i>
 					<span class="me-1 d-inline d-md-none new-feed-link-text">Watchlist</span>
 				</a>
-				<a href="./comingsoon.html" class="text-decoration-none active col-12 new-feed-link d-flex align-items-center justify-content-md-center mb-2">
+				<a href="comingsoon.html" class="text-decoration-none active col-12 new-feed-link d-flex align-items-center justify-content-md-center mb-2">
 					<i class="fa-solid fa-calendar me-1"></i>
 					<span class="me-1 d-inline d-md-none new-feed-link-text">Coming Soon</span>
 				</a>
@@ -89,18 +89,13 @@
 					<div class="dot ms-1" style="background: greenyellow; width: 8px; height: 8px; border-radius: 50%;"></div>
 				</div>
 
-				<div class="col-12 followers cursor-pointer d-flex align-items-center justify-content-center">
-					<i class="fa-solid fa-circle-chevron-down ms-1"></i>
-					<span class="load-more">Load more</span>
-				</div>
-
 			</div>
 
 			<!-- logout button  -->
-			<!-- <div class="col-12 col-md-3 mt-1 cursor-pointer h-auto logout-button-wrapper d-md-none d-flex align-items-center justify-content-center ">
+			<div class="col-12 col-md-3 mt-1 cursor-pointer h-auto logout-button-wrapper d-md-none d-flex align-items-center justify-content-center ">
 				<i class="fa-solid fa-arrow-right-from-bracket"></i>
 				<span class="logout-text me-1">Log out</span>
-			</div> -->
+			</div>
 
 		</div>
 
@@ -109,44 +104,40 @@
 
 			<!-- main navigation bar  -->
 			<div class="col-12 h-auto navbar-wrapper">
+				<!-- search bar wrapper  -->
+				<div class="col-6 col-md-7 h-10 search-bar-wrapper d-flex align-items-center">
+					<!-- chevron icons  -->
+					<i class="fa-solid fa-chevron-left chevron active ms-1 d-inline d-md-none"></i>
+					<i class="fa-solid fa-chevron-right chevron ms-3 ms-md-1 d-inline d-md-none"></i>
+					<!-- search bar goes here  -->
+					<div class="search-bar d-flex align-items-center justify-content-between">
+						<div class="d-flex align-items-center">
+							<i class="fa-solid fa-magnifying-glass ms-1"></i>
+							<input type="text" placeholder="Search everything" class="ms-1">
+						</div>
+						<i class="fa-solid fa-sliders"></i>
+					</div>
+				</div>
 				<!-- profile bar wrapper  -->
-				<div class="col-12 col-md-5 d-sm-none h-10 noti-bar-wrapper d-flex align-items-center justify-content-end">
+				<div class="col-6 col-md-5 d-sm-none h-10 noti-bar-wrapper d-flex align-items-center justify-content-end">
 					<i class="fa-regular fa-comments noti-icon ms-1"></i>
 					<i class="fa-regular fa-bell noti-icon ms-1"></i>
-					<div class="profile ms-1" style="background: #fff; border: 2px solid #ff4b4b; width: 35px; height: 35px; border-radius: 50%;"></div>
+					<div class="profile ms-1" style="background: url(./assets/images/viewers/user3.jpg); border: 2px solid #ff4b4b; width: 35px; height: 35px; border-radius: 50%;background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
 				</div>
 			</div>
 
-
-			
 
 			<!-- watching goes here  -->
 			<div class="col-12 h-auto watching-wrapper">
 
 				<div class="party-title">
-					<span  class="me-1"><span style="color: var(--scarlet); font-weight: var(--fw-semibold);">Coming</span> Soon</span>
+					<span  class="me-1"><span style="color: var(--scarlet); font-weight: var(--fw-semibold);">Coming</span> TV Show</span>
 				</div>
 
 				<!-- movies go here  -->
-				<a href="https://youtu.be/bHXejJq5vr0?si=bw9J_lsVp5N132hM" class="movie-wrapper col-4 col-md-6 col-sm-12">
-					<div class=" h-30 movie cursor-pointer" style="background: url(./assets/images/playlist/eng/65.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
-					<div class="movie-details">
-						<div class="col-12 h-auto d-flex align-items-center justify-content-end mb-3"><i class="fa-solid fa-bookmark" style="color: var(--scarlet);"></i></div>
-						<div class="col-12 h-auto movie-title ">65</div>
-						<!-- <div class="col-12"></div> -->
-						<div class="d-flex align-items-center justify-content-start col-100">
-							<div class="col-4 rating ms-1">PG-13</div>
-							<div class="col-9 dur">1h 33m - 2023</div>
-						</div>
-						<div class="col-12">
-							<div class="watch-btn">
-								<span class="ms-1">Trailer</span><i class="fa-regular fa-circle-play"></i>
-							</div>
-						</div>
-					</div>
-				</a>
-
-				
+				<div class="col-12 dr-ga-movie-conatiner">
+					
+				</div>
 				
 			</div>
 
@@ -162,5 +153,20 @@
 	<script src="./assets/js/party-swiper.js"></script>
 	<script src="./assets/js/aside_toggler.js"></script>
 	<script src="./assets/js/image-slider.js"></script>
+	<script src="./assets/js/app.js"></script>
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			spaceBetween: 10,
+			centeredSlides: true,
+			autoplay: {
+				delay: 2500,
+				disableOnInteraction: false,
+			},
+			pagination: {
+				// el: ".swiper-pagination",
+				clickable: true,
+			}
+		});
+	</script>
 </body>
 </html>
