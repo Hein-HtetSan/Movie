@@ -12,7 +12,7 @@ for(let i=0; i<5; i++){
                     <div class="movie-wrapper col-4 col-md-6 col-sm-12" style=";">
 						<div class=" h-30 movie cursor-pointer" style="box-shadow: var(--shadow); background: url(${comming_shows[i].img}); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
 						<div class="movie-details">
-							<div class="col-12 h-auto d-flex align-items-center justify-content-end mb-3"></div>
+							<div class="col-12 h-auto d-flex align-items-center justify-content-end mb-5"></div>
 							<div class="col-12 h-auto movie-title ">${comming_shows[i].name}</div>
 							<!-- <div class="col-12"></div> -->
 							<div class="d-flex align-items-center justify-content-start col-100">

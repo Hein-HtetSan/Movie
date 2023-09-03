@@ -475,6 +475,7 @@ form .fa-magnifying-glass{
 	border-radius: 15px;
 	background: var(--swan);
 	cursor: pointer;
+	transition: all .3s ease;
 }
 
 .watch-btn-secondary{
@@ -497,7 +498,7 @@ form .fa-magnifying-glass{
 }
 
 .watch-btn:hover{
-	background: var(--eel);
+	background: var(--scarlet);
 	color: var(--swan);
 }
 
