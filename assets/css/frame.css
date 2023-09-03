@@ -267,6 +267,7 @@ form .fa-magnifying-glass{
 .h-20{height: 20vh  !important;}
 .h-10{height: 10vh  !important;}
 .h-auto{height: auto  !important;}
+.h-0{height: 0vh !important;}
 
 .position-relative{position: relative;}
 .position-absolute{position: absolute;}
@@ -316,11 +317,11 @@ form .fa-magnifying-glass{
 }
 
 /* for flex box  */
-.d-flex{display:  flex;}
-.d-block{display: block;}
-.d-inline{display: inline;}
-.d-inline-block{display: inline-block;}
-.d-none{display: none;}
+.d-flex{display:  flex !important;}
+.d-block{display: block !important;}
+.d-inline{display: inline !important;}
+.d-inline-block{display: inline-block !important;}
+.d-none{display: none !important;}
 
 .align-items-center{align-items: center;}
 .align-items-start{align-items: start;}
@@ -439,7 +440,7 @@ form .fa-magnifying-glass{
 	bottom: 11px;
 	left: 11px;
 	transform: translateY(110%);
-	background-color: rgba(67, 68, 69, 0.461);
+	background: linear-gradient(rgba(20, 20, 20, 0.461),rgba(131, 131, 132, 0.402));
 	transition: all .5s ease;
 	border-radius: 10px;
 	padding: 1rem;
@@ -553,6 +554,7 @@ form .fa-magnifying-glass{
 	.h-md-30{height: 30vh !important;}
 	.h-md-20{height: 20vh !important;}
 	.h-md-10{height: 10vh !important;}
+	.h-md-0{height: 0vh !important;}
 
 	/* for flex box  */
 	.d-md-flex{display:  flex !important;}
@@ -658,6 +660,7 @@ form .fa-magnifying-glass{
 	.h-sm-30{height: 30vh !important;}
 	.h-sm-20{height: 20vh !important;}
 	.h-sm-10{height: 10vh !important;}
+	.h-sm-0{height: 0vh !important;}
 
 	/* for flex box  */
 	.d-sm-flex{display:  flex !important;}
