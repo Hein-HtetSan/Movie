@@ -26,24 +26,34 @@
 
 // ]
 
-let recent_tv_shows = [
-    {"name": "Ellen Show", "link": "https://www.youtube.com/watch?v=UEzXRC8s-fA?si=_5JMhh0xeRQJ4i_8", "img": "./assets/img/EllenShow/3.png"},
+let tv_shows = [
+    {"name": "Ellen Show", "link": "https://www.youtube.com/watch?v=UEzXRC8s-fA?si=_5JMhh0xeRQJ4i_8", "img": "./assets/img/Ellenshow/3.png"},
     {"name": "Steve TV Show", "link": "https://www.youtube.com/watch?v=PA21Bok59rQ?si=rfAVJxLFXBMWKsvn", "img": "./assets/img/steve/3.png"},
     {"name": "Little Big Shots", "link": "https://www.youtube.com/watch?v=5Ln0ZF2ATCg?si=wjP4XQ_C3n58pfZd", "img": "./assets/img/bigshots/3.png"},
     {"name": "Tonight Show", "link": "https://www.youtube.com/watch?v=xgs5gOCpsAE?si=IJOZG6vu1ZJNIGwK", "img": "./assets/img/jimmy/4.png"},
-]
 
+    {"name": "Ellen Show", "link": "https://www.youtube.com/watch?v=DXGiVlEmUOk?si=5F026LlRfBk45DEb", "img": "./assets/img/Ellenshow/5.png"},
+    {"name": "Steve TV Show", "link": "https://www.youtube.com/watch?v=EUs7i5ctxO0?si=Zt7_437ANQwiXMbq", "img": "./assets/img/steve/5.png"},
+    {"name": "Little Big Shots", "link": "https://www.youtube.com/watch?v=JWv41P1RZuU?si=WyEVpRRKRk06vmQ0", "img": "./assets/img/bigshots/5.png"},
+    {"name": "Tonight Show", "link": "https://www.youtube.com/watch?v=0TdSMhRfqO0?si=8kDQOmSnGhC99Ooo", "img": "./assets/img/jimmy/5.png"},
+
+	{"name": "7Escape", "link": "https://www.youtube.com/watch?v=P_ybS5e7J14", "img": "./assets/img/cm/7escape.png"},
+    {"name": "Bumpy Family", "link": "https://www.youtube.com/watch?v=7bvIi2ABcGQ", "img": "./assets/img/cm/bumpy_fam.jpg"},
+    {"name": "Sex Education Season 4","link": "https://www.youtube.com/watch?v=VgJotJx8Iio", "img": "./assets/img/cm/sexedu.jpg"},
+    {"name": "The Worst of Evil", "link": "https://www.youtube.com/watch?v=4Rmrhg9A0Oc", "img": "./assets/img/cm/The_Worst_Of_Evil.jpg"},
+    {"name": "Starstruck Season 3", "link": "https://www.youtube.com/watch?v=m6UsdlcEE44", "img": "./assets/img/cm/starstruck-season.jpg"},
+]
 
 for(let i=0; i<5; i++){
     document.querySelector(".dr-ga-movie-conatiner").innerHTML += `
                     <div class="movie-wrapper col-4 col-md-6 col-sm-12" style="">
-						<div class=" h-30 movie cursor-pointer" style="box-shadow: var(--shadow); background: url(${recent_tv_shows[i].img}); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+						<div class=" h-30 movie cursor-pointer" style="box-shadow: var(--shadow); background: url(${tv_shows[i].img}); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
 						<div class="movie-details">
 							<div class="col-12 h-auto d-flex align-items-center justify-content-end mb-5"></div>
-							<div class="col-12 h-auto movie-title ">${recent_tv_shows[i].name}</div>
+							<div class="col-12 h-auto movie-title ">${tv_shows[i].name}</div>
 							<!-- <div class="col-12"></div> -->
 							<div class="col-12 mt-little">
-								<a href="${recent_tv_shows[i].link}" target="_blank" class="watch-btn text-decoration-none">
+								<a href="${tv_shows[i].link}" target="_blank" class="watch-btn text-decoration-none">
 									<span class="ms-1">Play</span><i class="fa-regular fa-circle-play"></i>
 								</a>
 							</div>

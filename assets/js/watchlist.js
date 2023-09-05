@@ -1,5 +1,5 @@
 let watchlist = [
-    {"name": "Ellen Show", "link": "https://www.youtube.com/watch?v=DXGiVlEmUOk?si=5F026LlRfBk45DEb", "img": "./assets/img/EllenShow/5.png"},
+    {"name": "Ellen Show", "link": "https://www.youtube.com/watch?v=DXGiVlEmUOk?si=5F026LlRfBk45DEb", "img": "./assets/img/Ellenshow/5.png"},
     {"name": "Steve TV Show", "link": "https://www.youtube.com/watch?v=EUs7i5ctxO0?si=Zt7_437ANQwiXMbq", "img": "./assets/img/steve/5.png"},
     {"name": "Little Big Shots", "link": "https://www.youtube.com/watch?v=JWv41P1RZuU?si=WyEVpRRKRk06vmQ0", "img": "./assets/img/bigshots/5.png"},
     {"name": "Tonight Show", "link": "https://www.youtube.com/watch?v=0TdSMhRfqO0?si=8kDQOmSnGhC99Ooo", "img": "./assets/img/jimmy/5.png"},
