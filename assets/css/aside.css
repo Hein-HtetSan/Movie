@@ -49,7 +49,7 @@
 
 /* logo wrapper  */
 .logo-wrapper h3{
-    font-size: var(--fs-20);
+    font-size: var(--fs-18);
     color: var(--mint-cream);
     font-weight: var(--fw-semibold);
 }
