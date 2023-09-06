@@ -44,7 +44,7 @@ let tv_shows = [
     {"name": "Starstruck Season 3", "link": "https://www.youtube.com/watch?v=m6UsdlcEE44", "img": "./assets/img/cm/starstruck-season.jpg"},
 ]
 
-for(let i=0; i<5; i++){
+for(let i = 0; i < 8; i++){
     document.querySelector(".dr-ga-movie-conatiner").innerHTML += `
                     <div class="movie-wrapper col-4 col-md-6 col-sm-12" style="">
 						<div class=" h-30 movie cursor-pointer" style="box-shadow: var(--shadow); background: url(${tv_shows[i].img}); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
