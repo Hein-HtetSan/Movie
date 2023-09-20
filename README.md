@@ -1,11 +1,11 @@
-# Variety Show
+# Variety Show 🤩
 variety show web page which is responsive and fancy ui design. 
 
 ![UI Sample](./assets/img/ui.jpg)
 
-### [Demo]()
+### [Demo](https://hein-htetsan.github.io/Movie/)
 
-### **Contributors**
+### **Contributors** 🍄
 
 <a href="https://github.com/hsu-san">
   <img src="https://img.shields.io/badge/GitHub-HsuSanWin-blue" alt="GitHub" />
